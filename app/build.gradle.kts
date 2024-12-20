@@ -66,4 +66,22 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    /** Coil **/
+    implementation(libs.androidx.coil)
+
+    /** Koin **/
+    implementation(libs.androidx.koin)
+    implementation(libs.androidx.koin.android)
+    implementation(libs.androidx.koin.core)
+
+    /** Retrofit **/
+    implementation(libs.androidx.retrofit2)
+    implementation(libs.androidx.retrofit2.gson)
+
+    /** FireBase **/
+    implementation(platform(libs.androidx.firebase.bom))
+    implementation(libs.androidx.firebase.core)
+    implementation(libs.androidx.firebase.storage)
+    implementation(libs.androidx.firebase.analytics)
 }

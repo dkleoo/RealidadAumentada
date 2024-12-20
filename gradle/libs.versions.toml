@@ -9,6 +9,17 @@ lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.9.3"
 composeBom = "2023.08.00"
 rajawali = "1.2.1970"
+coil-version = "2.7.0"
+koin-version = "3.2.0"
+retrofit2-version = "2.9.0"
+lottie-version = "4.0.0"
+firebase-version = "4.4.2"
+firebase-bom-version = "33.1.2"
+firebase-storage-version = "-ktx"
+firebase-core-version = "21.1.1"
+firebase-analitic-version = "22.0.2"
+statistics-version = "0.2.4-alpha"
+apache-poi-verion = "5.2.5"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +37,21 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 rajawali = { module = "org.rajawali3d:rajawali", version.ref = "rajawali" }
+androidx-coil = { group = "io.coil-kt", name = "coil-compose" , version.ref = "coil-version" }
+androidx-koin = { group = "io.insert-koin", name = "koin-androidx-compose" , version.ref = "koin-version" }
+androidx-koin_android = { group = "io.insert-koin", name = "koin-android" , version.ref = "koin-version" }
+androidx-koin_core = { group = "io.insert-koin", name = "koin-core" , version.ref = "koin-version" }
+androidx-retrofit2-gson = { group = "com.squareup.retrofit2", name = "converter-gson" , version.ref = "retrofit2-version" }
+androidx-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit" , version.ref = "retrofit2-version" }
+androidx-lottie = { group = "com.airbnb.android", name = "lottie-compose" , version.ref = "lottie-version" }
+androidx-firebase-bom = { group = "com.google.firebase", name = "firebase-bom" , version.ref = "firebase-bom-version" }
+androidx-firebase-storage = { group = "com.google.firebase", name = "firebase-storage" , version.ref = "firebase-storage-version" }
+androidx-firebase-core = { group = "com.google.firebase", name = "firebase-core" , version.ref = "firebase-core-version" }
+androidx-firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" , version.ref = "firebase-analitic-version" }
+androidx-statistics = { group = "com.github.tehras", name = "charts" , version.ref = "statistics-version" }
+androidx-apache-poi = { group = "org.apache.poi" ,name = "poi" ,version.ref = "apache-poi-verion" }
+androidx-apache-poi-ooxml = { group = "org.apache.poi" ,name = "poi-ooxml" ,version.ref = "apache-poi-verion" }
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
